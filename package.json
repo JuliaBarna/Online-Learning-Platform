@@ -1,0 +1,27 @@
+{
+  "name": "learning_platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass assets/styles/styles.scss assets/styles/styles.css",
+    "lint:js": "eslint . --ext .js,.jsx",
+    "lint:scss": "stylelint \"assets/**/styles.scss\"",
+    "lint": "npm run lint:js && npm run lint:scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
+    "postcss-scss": "^4.0.9",
+    "sass": "^1.86.2",
+    "stylelint": "^16.3.1",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-scss": "^6.11.1"
+  }
+}
