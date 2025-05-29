@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>EduFlow</h1>
+            </div>
+            
+
+            <div class="filters">
+                <select id="levelFilter"></select>
+                <select id="topicFilter"></select>
+                <select id="titleFilter"></select>
+                <select id="sortBy">
+                    <option value="">Sort by</option>
+                    <option value="asc">Title A → Z</option>
+                    <option value="desc">Title Z → A</option>
+                </select>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">&#9776;</button>
+        </div>
+    </header>
+    <div class="search-container">
+        <input type="text" id="keywordSearch" placeholder="Search by keyword...">
+    </div>
+    
+    
+    
+    
+    <div id="gallery" class="gallery-container"></div>
+    <footer>
+        <p>&copy; 2025 EduFlow. All Rights Reserved.</p>
+    </footer>
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>

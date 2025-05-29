@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Web Development",
+        "instructor": "John Doe",
+        "level": "Beginner",
+        "image": "/assets/images/webdev.jpg",
+        "topics": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "title": "Graphic Design",
+        "instructor": "Jane Smith",
+        "level": "Intermediate",
+        "image": "/assets/images/graphdesign.jpg",
+        "topics": ["Photoshop", "Illustrator", "Typography"]
+    },
+    {
+        "title": "Data Science",
+        "instructor": "Alice Johnson",
+        "level": "Advanced",
+        "image": "/assets/images/datascience.png",
+        "topics": ["Python", "Machine Learning", "AI"]
+    },
+    {
+        "title": "Cybersecurity",
+        "instructor": "Mark Williams",
+        "level": "Advanced",
+        "image": "/assets/images/cybersecurity.jpg",
+        "topics": ["Network Security", "Ethical Hacking", "Encryption"]
+    },
+    {
+        "title": "Mobile App Development",
+        "instructor": "Emily Brown",
+        "level": "Intermediate",
+        "image": "/assets/images/mobiledev.webp",
+        "topics": ["Flutter", "React Native", "Swift"]
+    },
+    {
+        "title": "Digital Marketing",
+        "instructor": "Michael Green",
+        "level": "Beginner",
+        "image": "/assets/images/digitalmark.jpg",
+        "topics": ["SEO", "Content Marketing", "Social Media"]
+    },
+    {
+        "title": "Game Development",
+        "instructor": "Sophia Martinez",
+        "level": "Intermediate",
+        "image": "/assets/images/gamedev.png",
+        "topics": ["Unity", "C#", "Unreal Engine"]
+    },
+    {
+        "title": "AI & Machine Learning",
+        "instructor": "David Lee",
+        "level": "Advanced",
+        "image": "/assets/images/ai.png",
+        "topics": ["Neural Networks", "Deep Learning", "NLP"]
+    },
+    {
+        "title": "Blockchain & Crypto",
+        "instructor": "Jessica Taylor",
+        "level": "Intermediate",
+        "image": "/assets/images/blockchain.png",
+        "topics": ["Smart Contracts", "Ethereum", "Bitcoin"]
+    },
+    {
+        "title": "Cloud Computing",
+        "instructor": "Daniel White",
+        "level": "Beginner",
+        "image": "/assets/images/cloud.png",
+        "topics": ["AWS", "Azure", "Google Cloud"]
+    }
+]

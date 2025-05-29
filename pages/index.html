@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFlow</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>EduFlow</h1>
+            </div>
+    
+            <div class="search-container">
+                <input type="text" id="courseSearch" placeholder="Search Courses" autocomplete="off">
+                <ul id="courseSearchResults" class="results-list"></ul>
+            </div>
+    
+            
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="/assets/images/logo.png" alt="1"></div>
+            <div class="slide"><img src="/assets/images/img3.png" alt="2"></div>
+            <div class="slide"><img src="/assets/images/img4.png" alt="3"></div>
+            <div class="slide"><img src="/assets/images/img2.png" alt="4"></div>
+            <div class="slide"><img src="/assets/images/img1.png" alt="5"></div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+
+    <div class="text-right">
+        Small <span class="green-text">Steps</span> Today,<br>
+        Big <span class="green-text">Achievements</span> <br>
+        Tomorrow
+    </div>
+
+    <button class="find-course-btn">Explore Courses</button>
+
+    <section class="courses">
+        <h2>Popular Courses</h2>
+        <div class="course-container" id="courseContainer"></div>
+        <button class="explore-btn" id="loadMoreBtn">Explore More</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 EduFlow. All Rights Reserved.</p>
+    </footer>
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>
