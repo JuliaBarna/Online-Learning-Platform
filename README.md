@@ -25,10 +25,11 @@ EduFlow is an online learning platform that allows users to search, browse, filt
 ## Project Installation
 
 ### 1. Clone the repository
-```bash
+```
 git clone https://github.com/JuliaBarna/Online-Learning-Platform.git
-cd learning_playform
----
+cd learning_platform
+```
+
 ### 2. Initialize npm
 ```
 npm init -y
